@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+
+    @include tablet {
+        padding: 0 15px;
+        width: 720px;
+    }
+
+    @include desktop {
+        padding: 0;
+        width: 1160px;
+    }
+
+    @include desktop-md {
+        width: 1360px;
+    }
+
+    @include desktop-xl {
+        width: 1760px;
+    }
+}
