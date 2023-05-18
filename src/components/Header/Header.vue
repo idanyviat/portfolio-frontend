@@ -8,15 +8,19 @@
                 <a href="#" class="header__link">Контакты</a>
             </section>
             <section class="header__account">
-                <button type="button">Account</button>
+                <Button title="Account" />
             </section>
         </div>
     </header>
 </template>
 
 <script>
+import Button from '../Buttons/Button.vue';
 export default {
     name: 'Header',
+    components: {
+        Button,
+    }
 }
 </script>
 
